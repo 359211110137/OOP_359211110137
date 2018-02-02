@@ -13,8 +13,13 @@ public class PersonApp {
         student.setName("Boy Saiyong");
         System.out.println(student.getName());
         System.out.println(student.toString());
+        Employee employee = new Employee("2222222222222", "waranya",
+                "204 M.13 T.Nabon",
+                "Female",
+                "Manager", 50000,"THAI AIRWAY");
 
-
-
+        System.out.println(employee.toString());
     }//main
+
+
 }//class
