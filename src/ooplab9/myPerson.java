@@ -10,6 +10,11 @@ public class myPerson {
 
         System.out.println(person.toString());
 
+        //edit data of object
+        person.getJob().setSalary(50000);
+        System.out.println(person.getJob().getPosition());
+        System.out.println(person.getJob().getSalary());
+
 
     }//main
 }//class
